@@ -703,7 +703,7 @@
 
   /* ── Shooting Stars ── */
   .shooting-stars{
-    position:absolute;
+    position:fixed;
     inset:0;
     overflow:hidden;
     pointer-events:none;
@@ -734,24 +734,24 @@
   .s1{
     top:12%;
     left:-150px;
-    animation:shootStar1 5s linear infinite;
+    animation:shootStar1 8s linear infinite;
   }
   .s2{
     top:35%;
     right:-150px;
     transform:rotate(-25deg);
-    animation:shootStar2 8s linear infinite;
+    animation:shootStar2 12s linear infinite;
   }
   .s3{
     top:65%;
     left:-150px;
-    animation:shootStar3 6s linear infinite;
+    animation:shootStar3 16s linear infinite;
   }
   .s4{
     top:80%;
     right:-150px;
     transform:rotate(-25deg);
-    animation:shootStar4 7s linear infinite;
+    animation:shootStar4 20s linear infinite;
   }
 
   @keyframes shootStar1{
@@ -1015,7 +1015,7 @@
   }
   .closing-signature {
     font-family: 'Pinyon Script', cursive;
-    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    font-size: clamp(1rem, 3.5vw, 2rem);
     color: rgba(255,255,255,0.8);
     margin-top: 1rem;
   }
@@ -1561,7 +1561,7 @@
     <h2 class="closing-sekali">Sekali lagi..</h2>
     <p class="closing-text">
       Selamat ulang tahun, Sayangku.<br>
-      I love you from the bottom of my heart<br> <span class="closing-heart">❤️
+      I love you from the bottom of my heart.<br> <span class="closing-heart">❤️
     </p>
     <div class="divider"></div>
     <p class="closing-signature">– Your prettiest girlfriend, Rahma. –</p>
@@ -1706,8 +1706,8 @@ function createGiftExplosion(){
 
 </script>
 
-< audio id="bgMusic" loop>
-  <source src="E:\Rahmaa\birthday_website\music\Christina Perri - A Thousand Years.mp3" type="audio/mpeg">
+<audio id="bgMusic" loop>
+  <source src="music/Christina Perri - A Thousand Years.mp3" type="audio/mpeg">
 </audio>
 
 </body>
