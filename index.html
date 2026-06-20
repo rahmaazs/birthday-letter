@@ -387,8 +387,8 @@
     height: 50px;
     background: rgba(255,255,255,0.4);
   }
-  .b1 { background: #4a3cb5; margin-right: -8px; }
-  .b2 { background: #dde4f8; }
+  .b1 { background: #ff8dba; margin-right: -8px; }
+  .b2 { background: #ffeea2; }
 
   /* ── INTRO ── */
   .intro-label {
@@ -452,6 +452,11 @@
     display: inline-block;
     margin-bottom: 20px;
     width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .polaroid:hover {
+    transform: scale(1.05) rotate(0deg);
+    box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
   }
   .polaroid img, .polaroid .photo-placeholder {
     width: 100%;
@@ -511,6 +516,11 @@
     border: 3px solid rgba(255,255,255,0.3);
     overflow: hidden;
     box-shadow: 0 0 20px rgba(80,120,255,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .circle-photo:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
   }
   .circle-photo img, .circle-photo .photo-placeholder {
     width: 100%;
@@ -975,6 +985,11 @@
     background: white;
     padding: 10px 10px 35px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .stacked-polaroid:hover {
+    transform: scale(1.05) rotate(0deg);
+    box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
   }
   .stacked-polaroid img, .stacked-polaroid .photo-placeholder {
     width: 160px;
@@ -1059,6 +1074,11 @@
     .polaroid{
       width: 220px !important;
       margin: 0 auto !important;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .polaroid:hover {
+      transform: scale(1.05) rotate(0deg);
+      box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
     }
     .photo-stack{
       display:grid !important;
@@ -1072,6 +1092,10 @@
       position:static !important;
       transform:none !important;
       width:150px !important;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .stacked-polaroid:hover {
+      box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
     }
     .stacked-polaroid img{
       width:100%;
@@ -1081,6 +1105,11 @@
     .circle-photo {
       width: 140px;
       height: 140px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .circle-photo:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 25px rgba(80, 120, 255, 0.7), 0 0 50px rgba(80, 120, 255, 0.3);
     }
     .ourstory-wrap { grid-template-columns: 1fr; }
     .things-wrap { grid-template-columns: 1fr; }
@@ -1229,7 +1258,7 @@
   <div id="gift-particles"></div>
   <div class="gift-content">
     <div class="gift-box" id="giftBox">
-      🎁
+      🚀
     </div>
   </div>
 </div>
@@ -1458,43 +1487,43 @@
         </div>
         <div class="thing-card">
           <span class="thing-num">01</span>
-          I love you karena setiap kali kamu senyum, matanya juga ikut senyuumm.
+          <em>I love your <strong>smile</strong>,</em> karena setiap kali kamu senyum, matanya juga ikut senyuumm.
         </div>
         <div class="thing-card">
           <span class="thing-num">02</span>
-          I love you karena ketawa kamu LUCU BANGET. Ga jarang aku suka ikut ketawa karena denger kamu ketawa wkwkwkw.
+          <em>I love your <strong>laugh</strong>,</em> karena ketawa kamu LUCU BANGET. Ga jarang aku suka ikut ketawa karena denger kamu ketawa wkwkwkw.
         </div>
         <div class="thing-card">
           <span class="thing-num">03</span>
-          I love you karena kamu selalu bisa bikin aku ketawa lewat jokes-jokes random. Meskipun kadang bikin jokesnya spontan, tapi tetep lucu dan mind blowing 🤯
+          <em>I love your <strong>random jokes</strong>,</em> karena kamu selalu bisa bikin aku ketawa lewat jokes-jokes random. Meskipun kadang bikin jokesnya spontan, tapi tetep lucu dan mind blowing 🤯
         </div>
         <div class="thing-card">
           <span class="thing-num">04</span>
-          I love you karena kamu selalu punya hal baru untuk diceritain ke aku. Aku suka waktu kamu bagiin pengetahuan atau hal-hal menarik yang baru kamu tahu, karena dari kamu aku juga jadi ikut belajar banyak hal.
+          <em>I love your <strong>curiosity</strong>,</em> karena kamu selalu punya hal baru untuk diceritain ke aku. Aku suka waktu kamu bagiin pengetahuan atau hal-hal menarik yang baru kamu tahu, karena dari kamu aku juga jadi ikut belajar banyak hal.
         </div>
         <div class="thing-card">
           <span class="thing-num">05</span>
-          I love you karena kalo lagi cerita tentang sesuatu yang kamu suka, kamu kelihatan antusias bangett.
+          <em>I love your <strong>enthusiasm</strong>,</em> karena kalo lagi cerita tentang sesuatu yang kamu suka, kamu kelihatan antusias bangett.
         </div>
         <div class="thing-card">
           <span class="thing-num">06</span>
-          I love you karena kamu ga pernah berhenti belajar dan berkembang. Kamu selalu berusaha jadi versi terbaik dari diri kamu sendiri, dan itu salah satu hal yang aku kagumi dari kamu.
+          <em>I love your <strong>growth</strong>,</em> karena kamu ga pernah berhenti belajar dan berkembang. Kamu selalu berusaha jadi versi terbaik dari diri kamu sendiri, dan itu salah satu hal yang aku kagumi dari kamu.
         </div>
         <div class="thing-card">
           <span class="thing-num">07</span>
-          I love you karena kamu selalu jadi tempat paling nyaman buat aku cerita. Dari hal penting sampai hal receh, bahkan ghibahan sekalipunn.
+          <em>I love your <strong>presence</strong>,</em> karena kamu selalu jadi tempat paling nyaman buat aku cerita. Dari hal penting sampai hal receh, bahkan ghibahan sekalipunn.
         </div>
         <div class="thing-card">
           <span class="thing-num">08</span>
-          I love you karena pembawaan kamu waktu lagi ghibahin mas bro itu lucu banget. Keselnya rillll kelihatan dari lubuk hati yang paling wkwkwkw.
+          <em>I love your <strong>expressions</strong>,</em> karena pembawaan kamu waktu lagi ghibahin mas bro itu lucu banget. Keselnya rillll kelihatan dari lubuk hati yang paling wkwkwkw.
         </div>
         <div class="thing-card">
           <span class="thing-num">09</span>
-          I love you karena kamu selalu mau nemenin aku ketika aku mintaa.
+          <em>I love your <strong>company</strong>,</em> karena kamu selalu mau nemenin aku ketika aku mintaa.
         </div>
         <div class="thing-card">
           <span class="thing-num">10</span>
-          I love you karena sejak sama kamu, aku punya seseorang yang bisa aku sayang dengan tulus.
+          <em>I love your <strong>warmth</strong>,</em> karena di deket kamu, duniaku yang berisik rasanya langsung jadi jauh lebih tenang.
         </div>
 
         <div class="love-note">
