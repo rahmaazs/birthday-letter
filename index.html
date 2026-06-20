@@ -1052,6 +1052,15 @@
   .stacked-polaroid:nth-child(3){ transform:rotate(2deg) !important; }
   .stacked-polaroid:nth-child(4){ transform:rotate(-6deg) !important; }
 
+  .typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid rgba(255,255,255,0.7);
+    width: 0;
+    display: inline-block;
+    animation: typing 3s steps(30) forwards, blink 0.7s step-end infinite;
+  }
+
   /* ── MOBILE ── */
   @media (max-width: 768px) {
     .balloons-right,
@@ -1249,7 +1258,7 @@
     line-height: 1.9;
     font-style: italic;
   }
-
+  
 </style>
 </head>
 
@@ -1527,7 +1536,7 @@
         </div>
 
         <div class="love-note">
-          Sebenernya ga cuma 10 yang aku suka dari kamu. Masih banyak hal kecil yang mungkin ga pernah aku bilang, tapi selalu aku perhatiin. Tapi kalo aku tulis semuanya, nanti scroll websitenya sampe tahun depan. Jadi sementara cukup 10 dulu yaa gantenggg🤍
+          Sebenernya ga cuma 10 yang aku suka dari kamu. Masih banyak hal kecil yang mungkin ga pernah aku bilang, tapi selalu aku perhatiin. Tapi kalo aku tulis semuanya, nanti scroll websitenya sampe tahun depan. Jadi sementara cukup 10 dulu yaa gantenggg🫰
         </div>
 
       </div>
@@ -1593,10 +1602,10 @@
     <span class="floating-heart-bottom" style="left:90%; animation-duration:13s;">♡</span>
   </div>
   <div class="closing-inner fade-in">
-    <h2 class="closing-sekali">Sekali lagi..</h2>
+    <h2 class="closing-sekali">Last but not least...</h2>
     <p class="closing-text">
       Selamat ulang tahun, Sayangku.<br>
-      I love you from the bottom of my heart.<br> <span class="closing-heart">❤️
+      I loved you yesterday, I love you today, and I'll love you for a thousand years more <span class="closing-heart">♡
     </p>
     <div class="divider"></div>
     <p class="closing-signature">– Your prettiest girlfriend, Rahma. –</p>
@@ -1738,7 +1747,6 @@ function createGiftExplosion(){
     },800);
   },1200);
 }
-
 </script>
 
 <audio id="bgMusic" loop>
